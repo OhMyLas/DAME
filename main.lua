@@ -1,6 +1,6 @@
 function love.load()
 	x,y = 1920,1080
- 	gs = 2 
+ 	gs = 1 
 	
 	require "conf"
   	require "menu"
