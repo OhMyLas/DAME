@@ -1,12 +1,20 @@
 function love.load()
 	x,y = 1920,1080
- 	gs = 3 
+ 	gs = 2 
+	
 	require "conf"
   	require "menu"
 	require "plateau"
 	require "credit"
 end
 
+
+function love.update(dt)
+        if gs == 4 then
+                love.window.close()
+        end
+
+end
 
 
 function love.draw()
